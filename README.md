@@ -50,3 +50,8 @@ aws s3 sync s3://remote-directory your_own_download_path
 
 ### Use slurm to download the data
 The code is in the `new_data.sh`. NEED CHANGE `line 5, 16, 17, 27, 28`.
+
+>[!TIP]
+>If get the error: fatal error: An error occurred (403) when calling the HeadObject operation: Forbidden. Please ask the people who offer the data for the IAM permission.
+>
+>The answer from [forums](https://repost.aws/questions/QUs5ia7jYbTAChIFL4pWxd6A/how-to-download-file-from-others-s3-bucket).
