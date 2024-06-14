@@ -49,4 +49,4 @@ aws s3 sync s3://remote-directory your_own_download_path
 ```
 
 ### Use slurm to download the data
-The code is in the `new_data.sh`.
+The code is in the `new_data.sh`. NEED CHANGE `line 5, 16, 17, 27, 28`.
