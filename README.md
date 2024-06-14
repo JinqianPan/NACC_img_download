@@ -29,5 +29,5 @@ Default region name [None]: us-east-2
 Default output format [None]:
 ```
 
->TIPS
+>![TIPS]
 >You could find `Default region name` in the Google to find which one is good for you. 
