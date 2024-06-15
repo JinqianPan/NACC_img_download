@@ -1,4 +1,4 @@
-# NACC image download
+# NACC Image Data Download Experience
 
 This repo is some experience of downloading the image data from NACC AWS S3 bucket.
 
