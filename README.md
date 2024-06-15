@@ -21,7 +21,7 @@ Typing the code below after install the CLI.
 ```
 aws configure
 ```
-The commend line will show you:
+This commend line would trick words following, please write **access key** and **secret access key** here.
 ```
 AWS Access Key ID [None]: accesskey
 AWS Secret Access Key [None]: secretkey
@@ -49,7 +49,7 @@ aws s3 sync s3://remote-directory your_own_download_path
 ```
 
 ### Use slurm to download the data
-The code is in the `new_data.sh`. NEED CHANGE `line 5, 16, 17, 27, 28`.
+In the UF, the Hipergator already provide the AWS CLI, so just use the code in `new_data.sh`. NEED CHANGE `line 5, 16, 17, 27, 28`.
 
 >[!TIP]
 >If get the error: fatal error: An error occurred (403) when calling the HeadObject operation: Forbidden. Please ask the people who offer the data for the IAM permission.
